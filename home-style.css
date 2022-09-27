@@ -1,0 +1,18 @@
+.nav-link {
+    text-decoration: none;
+    background-color: darkred;
+    color: beige;
+    font-size: 1.5em;
+    padding: 10px;
+    text-align: center;
+}
+
+#main-header {
+    font-size: 3em;
+    text-align: center;
+}
+
+#active {
+    background-color: beige;
+    color: darkred;
+}
