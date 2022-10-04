@@ -1,17 +1,59 @@
-.para {
-    font-size: 1.5em;
-    line-height: 1.5em;
+body {
+    margin: 0;
+    padding: 0;
+
+}
+
+nav {
+    background-color: steelblue;
+    padding: 20px;
+    text-align: center;
+    width: 100%;
+    margin: 0 auto;
 }
 
 a {
     background-color: steelblue;
     color: white;
-    font-size: 1.3em;
-    padding: 10px;
+    font-size: 1.5em;
+    padding: 20px;
     text-decoration: none;
+    margin: 40px;
 }
 
-#active {
+
+#active, a:hover {
     background-color: black;
     color: steelblue;
+}
+
+h1 {
+    color: steelblue;
+    text-align: center;
+    padding: 30px;
+    background-color: lightgray;
+}
+
+img {
+    width: 100%;
+    margin: 0 auto;
+    display: block;
+}
+
+.para {
+    font-size: 1.5em;
+    line-height: 1.5em;
+    text-align: center;
+    width: 80%;
+    margin: 20px auto;
+}
+
+footer p {
+    text-align: center;
+    padding: 20px;
+    font-size: 1.2em;
+}
+
+footer {
+    background-color: steelblue;
 }
