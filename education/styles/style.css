@@ -1,0 +1,54 @@
+body {
+    text-align: center;
+    background-color: #fca6c9;
+    font-family: arial;
+}
+
+header h1 {
+    color: white;
+    font-weight: bold;
+    font-size: 3em;
+}
+
+header h1:hover {
+    color: black;
+}
+
+main {
+    width: 25%;
+    margin: 0 auto;
+}
+
+#quote {
+    color: white;
+}
+
+#byline {
+    color: white;
+    font-size: 1.3em;
+    font-weight: bold;
+}
+
+ol {
+    text-align: left;
+    line-height: 2em;
+    font-size: 1.1em;
+    font-weight: bold;
+}
+
+.img img {
+    width: 50%;
+}
+
+#msg {
+    color: white;
+    font-size: 2em;
+    line-height: 1.5em;
+    width: 65%;
+    margin: 0 auto;
+}
+
+footer {
+    width: 19%;
+    margin: 0 auto;
+}
