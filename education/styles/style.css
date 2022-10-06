@@ -46,9 +46,15 @@ ol {
     line-height: 1.5em;
     width: 65%;
     margin: 0 auto;
+    padding: 30px;
 }
 
 footer {
-    width: 19%;
-    margin: 0 auto;
+    width: 20%;
+    margin: 0 auto;    
+    font-weight: bold;
+}
+
+footer p {
+    margin: 0;
 }
