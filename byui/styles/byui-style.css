@@ -1,15 +1,27 @@
+* {
+    margin: 0;
+}
+
 body {
     margin: 0;
     padding: 0;
+}
 
+main {
+    background-color: darkgray;
+}
+
+header {
+    background-color: lightgray;
 }
 
 nav {
     background-color: steelblue;
-    padding: 20px;
+    padding: 20px 0px;
     text-align: center;
     width: 100%;
     margin: 0 auto;
+    border-radius: 20px;
 }
 
 a {
@@ -31,13 +43,16 @@ h1 {
     color: steelblue;
     text-align: center;
     padding: 30px;
+    margin: 0 auto;
     background-color: lightgray;
 }
 
 img {
-    width: 100%;
+    width: 80%;
     margin: 0 auto;
     display: block;
+    border-radius: 50%;
+    padding: 30px 0px;
 }
 
 .para {
@@ -45,7 +60,8 @@ img {
     line-height: 1.5em;
     text-align: center;
     width: 80%;
-    margin: 20px auto;
+    margin: 0px auto;
+    padding: 20px 0px;
 }
 
 footer p {
