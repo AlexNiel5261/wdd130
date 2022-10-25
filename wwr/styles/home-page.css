@@ -14,7 +14,7 @@ body {
 header {
     display: grid;
     grid-template-columns: 150px auto;
-    background-color: #720915;
+    background: rgba(114, 9, 21, .85)
 }
 
 main section img {
@@ -38,6 +38,7 @@ nav a {
     color: #EDF2F4;
     text-decoration: none;
     padding: 35px;
+    opacity: 1;
 }
 
 #hero {
