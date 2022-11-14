@@ -1,4 +1,4 @@
-#content {
+.content {
     max-width: 1920px;
     margin: 0 auto;
     font-family: 'Times New Roman', 'Garamond', 'Georgia';
@@ -231,6 +231,71 @@ footer .social img {
     padding-top: 15px;
 }
 
+/* Begin rivers css */
+
+#river-header {
+    background: rgba(114, 9, 21)
+}
+
+.rivers-grid {
+    text-align: center;
+}
+
+.rivers-grid h1 {
+    font-size: 3em;
+}
+
+.rivers-grid h4 {
+    font-size: 1.5em;
+}
+
+.river-banner {
+    width: 65%;
+    margin: 0 auto;
+    display: grid;
+    background-color: #FCE9B0;
+    padding: 25px;
+    border-radius: 50px;
+    margin-bottom: 50px;
+    transition: all .5s;
+}
+
+
+.river-banner img {
+    width: 100%;
+    grid-row: 2/3;
+    grid-column: 1/2;
+    background-color: #EDF2F4;
+    border-radius: 50px;
+    opacity: .3;
+    transition: opacity .5s;
+}
+
+.river-banner:hover {
+    transform: scale(1.05);
+}
+
+.river-banner img:hover {
+    opacity: 1;
+    z-index: 2;
+}
+
+.river-banner h2 {
+    font-size: 2em;
+    margin-bottom: 50px;
+}
+
+.river-banner p {
+    font-size: 1.5em;
+    grid-row: 2/3;
+    grid-column: 1/2;
+    transition: all .5s;
+}
+
+.river-banner p:hover {
+    z-index: 1;
+}
+
 @media screen and (max-width: 900px) {
     #hero, .home-grid {
         display: block;
@@ -272,6 +337,4 @@ footer .social img {
         margin-top: 25px;
     }
 }
-
-
 
