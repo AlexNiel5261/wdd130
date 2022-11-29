@@ -5,7 +5,7 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>DTE Space</title>
-        <link rel="stylesheets" href="styles/space-style.css">
+        <link rel="stylesheet" href="styles/space-style.css">
     </head>
     <body>
         <header>
@@ -26,69 +26,87 @@
             <h1 id="site-title">
                 DTE Space
             </h1>
-            <p>DTE Space: Dedicated to bringing far away rockets Down To Earth. Find information concerning all major rockets of the modern world. From small satellite lifter Electron to Moon-Launching monster SLS: Come explore space with everyone's favorite controlled explosion machines.</p>
+            <p class="site-des">DTE Space: Dedicated to bringing far away rockets Down To Earth. Find information concerning all major rockets of the modern world. From small satellite lifter Electron to Moon-Launching monster SLS: Come explore space with everyone's favorite controlled explosion machines. From the half-century old government agency, to a revolutionary private company. If your looking for information on one of these providers, look no further.</p>
             <section class="banner">
-                <img src="styles/images/SpaceX Banner Edit.jpg" alt="spacex banner">
+                <h2>SpaceX</h2>
+                <a href="spacex.html">
+                    <img src="styles/images/SpaceX Banner Edit.jpg" alt="spacex banner">
+                </a>
             </section>
             <section class="banner">
-                <img src="styles/images/Rocket Lab Banner.png" alt="rocket lab banner">
+                <h2>Rocket Lab</h2>
+                <a href="rocket-lab.html">
+                    <img src="styles/images/Rocket Lab Banner.png" alt="rocket lab banner">
+                </a>
             </section>
             <section class="banner">
-                <img src="styles/images/NASA Banner Edit.jpeg" alt="nasa banner">
+                <h2>NASA</h2>
+                <a href="nasa.html">
+                    <img src="styles/images/NASA Banner Edit.jpeg" alt="nasa banner">
+                </a>
             </section>
             <section class="banner">
-                <img src="styles/images/ULA Banner Edit.jpg" alt="ula banner">
+                <h2>ULA</h2>
+                <a href="ula.html">
+                    <img src="styles/images/ULA Banner Edit.jpg" alt="ula banner">
+                </a>
             </section>
             <section class="banner">
-                <img src="styles/images/Ariane Space Banner Edit.jpg" alt="ariane space banner">
+                <h2>Ariane Space</h2>
+                <a href="ariane-space.html">
+                    <img src="styles/images/Ariane Space Banner Edit.jpg" alt="ariane space banner">
+                </a>
             </section>
             <section class="banner">
-                <img src="styles/images/Blue Origin Banner Edit.png" alt="blue origin banner">
+                <h2>Blue Origin</h2>
+                <a href="blue-origin.html">
+                    <img src="styles/images/Blue Origin Banner Edit.png" alt="blue origin banner">
+                </a>
             </section>
             <table class="data-table">
-                <tr>
+                <tr class="top-row">
                     <td>Company</td>
-                    <td>Launches (as of 11/17/22)</td>
+                    <td>Launches</td>
                     <td>Max payload to LEO</td>
                     <td>Founded</td>
                     <td>Rockets in development</td>
                 </tr>
-                <tr>
+                <tr class="row-1">
                     <td>SpaceX</td>
                     <td>188</td>
                     <td>63.8 t (Falcon Heavy)</td>
                     <td>March 2002</td>
                     <td>Starship SH</td>
                 </tr>
-                <tr>
+                <tr class="row-2">
                     <td>Rocket Lab</td>
                     <td>31</td>
                     <td>300 kg (Electron)</td>
                     <td>June 2006</td>
                     <td>Neutron</td>
                 </tr>
-                <tr>
+                <tr class="row-1">
                     <td>NASA</td>
                     <td>312</td>
                     <td>118 t (Saturn V)</td>
                     <td>July 1958</td>
                     <td>N/A</td>
                 </tr>
-                <tr>
+                <tr class="row-2">
                     <td>ULA</td>
                     <td>155</td>
                     <td>28.4 t (Delta IV Heavy)</td>
                     <td>December 2006</td>
                     <td>Vulcan</td>
                 </tr>
-                <tr>
+                <tr class="row-1">
                     <td>Ariane Space</td>
                     <td>287</td>
                     <td>20 t (Ariane 5)</td>
                     <td>March 1980</td>
                     <td>Ariane 6, Ariane Next</td>
                 </tr>
-                <tr>
+                <tr class="row-2">
                     <td>Blue Origin</td>
                     <td>28</td>
                     <td>N/A</td>
@@ -96,18 +114,19 @@
                     <td>New Glenn</td>
                 </tr>
             </table>
+            <p id="update">*Last updated 11/17/22</p>
         </main>
         <footer>
-            <p>DTE Space &copy; 2022 - Alex Nielsen</p>
-            <p><a href="site-plan.html">Site Plan</a></p>
-            <p><a href="contactus.html">Contact Us</a></p>
-            <h4>Main Provider Websites</h4>
-            <a href="https://www.spacex.com/" target="_blank">SpaceX</a>
-            <a href="https://www.rocketlabusa.com/" target="_blank">Rocket Lab</a>
-            <a href="https://www.nasa.gov/" target="_blank">NASA</a>
-            <a href="https://www.ulalaunch.com/" target="_blank">ULA</a>
-            <a href="https://www.arianespace.com/" target="_blank">Ariane Space</a>
-            <a href="https://www.blueorigin.com/" target="_blank">Blue Origin</a>
+            <p id="copy">DTE Space &copy; 2022 - Alex Nielsen</p>
+            <p id="plan"><a href="site-plan.html">Site Plan</a></p>
+            <p id="contact"><a href="contactus.html">Contact Us</a></p>
+            <a href="https://www.spacex.com/" target="_blank" id="spacex-web">SpaceX</a>
+            <a href="https://www.rocketlabusa.com/" target="_blank" id="lab-web">Rocket Lab</a>
+            <a href="https://www.nasa.gov/" target="_blank" id="nasa-web">NASA</a>
+            <a href="https://www.ulalaunch.com/" target="_blank" id="ula-web">ULA</a>
+            <a href="https://www.arianespace.com/" target="_blank" id="ariane-web">Ariane Space</a>
+            <a href="https://www.blueorigin.com/" target="_blank" id="origin-web">Blue Origin</a>
+            <img src="styles/images/DTE Space.png" id="footer-logo">
         </footer>
     </body>
 </html>

@@ -1,0 +1,213 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #f5f5f5;
+}
+
+h1, h2, h3, h4 {
+    font-family: 'Verdana', 'Tahoma', 'Lato';
+    color: #002f6c;
+}
+
+p, a {
+    font-family: 'Trebuchet MS', 'Tahoma', 'Arial';
+}
+
+nav {
+    background-color: #181711;
+    text-align: right;
+    padding: 40px;
+    position: relative;
+    top: -150px;
+}
+nav a {
+    color: #b5b7ba;
+    text-decoration: none;
+    font-size: 2em;
+    padding: 40px;
+}
+
+nav a:hover {
+    background-color: #002f6c;
+    color: #f5f5f5;
+}
+
+.logo {
+    position: relative;
+    left: 120px;
+    top: 20px;
+    z-index: 1;
+}
+
+.logo img {
+    width: 200px;
+    border-radius: 15px;
+    border: #181711 10px solid ;
+    z-index: 1;
+}
+
+main {
+    text-align: center;
+}
+
+#site-title {
+    font-size: 2.4em;
+    margin-top: -100px;
+    margin-bottom: 50px;
+}
+
+p {
+    font-size: 1.5em;
+}
+
+.site-des {
+    margin: 0 400px 50px 400px
+}
+
+.banner {
+    width: 80%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    z-index: 0;
+    transition: all .5s;
+}
+
+.banner a {
+    grid-row: 1/3;
+    grid-column: 1/3;
+}
+
+.banner:hover {
+    transform: scale(1.1);
+}
+
+.banner img {
+    width: 100%;
+    grid-column: 1/3;
+    grid-row: 1/2;
+    z-index: 0;
+    box-sizing: border-box;
+    border: #002f6c 20px solid;
+    border-radius: 20px;
+}
+
+.banner h2 {
+    grid-column: 1/2;
+    grid-row: 1/2;
+    z-index: 10;
+    margin: 700px 0 0 50px;
+    font-size: 3em;
+    color: #b5b7ba;
+    background-color: rgba(24, 23, 17, .8);
+    width: 50%;
+    height: 10%;
+    padding-top: 20px;
+    border-radius: 30px;
+}
+
+.data-table {
+    margin: 100px auto;
+    padding: 50px;
+    font-size: 1.7em;
+    border-top: #b5b7ba 2px solid;
+    border-bottom: #b5b7ba 2px solid;
+}
+
+.data-table td {
+    border  : #181711 1px solid;
+    padding: 10px;
+}
+
+.top-row {
+    background-color: #181711;
+    color: #b5b7ba;
+}
+
+.row-1 {
+    background-color: #b5b7ba;
+}
+
+.row-2 {
+    background-color: #f5f5f5;
+}
+
+footer {
+    background-color: #002f6c;
+    color: #b5b7ba;
+    display: grid;
+    grid-template-columns: 20% 20% 20% 10% 10% 20%;
+    text-align: center;
+}
+
+footer a {
+    color: #b5b7ba;
+    text-decoration: none;
+}
+
+#copy {
+    grid-column: 1/2;
+    grid-row: 2/3;
+}
+
+#plan {
+    grid-column: 2/3;
+    grid-row: 2/3;
+}
+
+#contact {
+    grid-row: 2/3;
+    grid-column: 3/4;
+}
+
+#spacex-web {
+    grid-column: 4/5;
+    grid-row: 1/2;
+    margin-top: 20px;
+}
+
+#lab-web {
+    grid-column: 4/5;
+    grid-row: 2/3;
+}
+
+#nasa-web {
+    grid-column: 4/5;
+    grid-row: 3/4;
+}
+
+#ula-web {
+    grid-column: 5/6;
+    grid-row: 1/2;
+    margin-top: 20px;
+}
+
+#ariane-web {
+    grid-column: 5/6;
+    grid-row: 2/3;
+}
+
+#origin-web {
+    grid-column: 5/6;
+    grid-row: 3/4;
+}
+
+#footer-logo {
+    grid-column: 6/7;
+    grid-row: 1/4;
+    margin: 0 auto;
+    height: 150px;
+}
+
+footer a:hover {
+    color: #f5f5f5;
+}
+
+#update {
+    font-size: .8em;
+    position: relative;
+    bottom: 150px;
+}
