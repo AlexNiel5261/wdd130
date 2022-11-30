@@ -10,7 +10,7 @@
     <body>
         <header>
             <a class="logo">
-                <img src="styles/images/DTE Space.png" alt="logo">
+                <img src="styles/images/DTE-Space.png" alt="logo">
             </a>
             <nav>
                 <a href="index.html">Home</a>
@@ -23,18 +23,18 @@
             </nav>
         </header>
         <main>
-            <h1>Blue Origin</h1>
-            <div>
-                <img src="styles/images/Blue Origin Banner Edit.png" alt="blue origin banner">
-                <h3>About Blue Origin</h3>
-                <h3>Orbital Reef</h3>
-                <h3>Achievements</h3>
-                <p>Blue Origin is a space company founded in 2000 by Amazon CEO Jeff Bezos. It is a smaller time yet still early privately funded commercial space flight provider. They aim to use resuable rockets to make space flight cheaper and more reliable. After several iterations of test vehicles, they have developed their current New Shepard vehicle, a suborbital vehicles able to launch and land vertically. Blue Origin is also developing two stage orbital launch vehicle New Glenn designed to bring far heavier payloads, including humans, into orbit and beyond.</p>
-                <p>Blue Origin is developing an orbital 'space business park' known as Orbital Reef. The aim is to open up the space industry into new markets and make orbit available to a more common consumer. The reef can be used for research and commercial use, and is planned to become operational sometime in the second half of this decade. The New Glenn heavy lift launcher will act as the ferry to the reef, and the station itself is being developed in tandem with Sierra Space company. This company will create the life modules and are planning to provide a spaceplane that is capable of landing on any world wide runway.</p>
-                <p>Blue Origin is a small yet still well achieved space launch provider. Blue Origin is one of the few space providers awarded a NASA contract to develop human flight systems for NASA missions. Blue Origin's BE-4 engine will be used on ULA's most powerful rocket: the Vulcan heavy lift vehicle. Blue Origin has also completed 6 crewed flights on its New Shpard vehicle, and on the first crewed flight carried Bezos himself, his brother, as well as the youngest and oldest person ever in space through a suborbital flight. Simultaneously New Shepard completed its first successful vertical landing.</p>
+            <h1 class="page-title">Blue Origin</h1>
+            <div class="provider-info">
+                <img src="styles/images/Blue-Origin-Banner-Edit.png" alt="blue origin banner" class="provider-banner">
+                <button onclick="myFunction1()">About Blue Origin</button>
+                <button onclick="myFunction2()">Orbital Reef</button>
+                <button onclick="myFunction3()">Achievements</button>
+                <p id="p-1">Blue Origin is a space company founded in 2000 by Amazon CEO Jeff Bezos. It is a smaller time yet still early privately funded commercial space flight provider. They aim to use resuable rockets to make space flight cheaper and more reliable. After several iterations of test vehicles, they have developed their current New Shepard vehicle, a suborbital vehicles able to launch and land vertically. Blue Origin is also developing two stage orbital launch vehicle New Glenn designed to bring far heavier payloads, including humans, into orbit and beyond.</p>
+                <p id="p-2">Blue Origin is developing an orbital 'space business park' known as Orbital Reef. The aim is to open up the space industry into new markets and make orbit available to a more common consumer. The reef can be used for research and commercial use, and is planned to become operational sometime in the second half of this decade. The New Glenn heavy lift launcher will act as the ferry to the reef, and the station itself is being developed in tandem with Sierra Space company. This company will create the life modules and are planning to provide a spaceplane that is capable of landing on any world wide runway.</p>
+                <p id="p-3">Blue Origin is a small yet still well achieved space launch provider. Blue Origin is one of the few space providers awarded a NASA contract to develop human flight systems for NASA missions. Blue Origin's BE-4 engine will be used on ULA's most powerful rocket: the Vulcan heavy lift vehicle. Blue Origin has also completed 6 crewed flights on its New Shpard vehicle, and on the first crewed flight carried Bezos himself, his brother, as well as the youngest and oldest person ever in space through a suborbital flight. Simultaneously New Shepard completed its first successful vertical landing.</p>
             </div>
-            <section>
-                <img src="styles/images/New Shepard.jpg" alt="new shepard">
+            <div class="rocket">
+                <img src="styles/images/New-Shepard.jpg" alt="new shepard" class="rocket-image">
                 <table>
                     <tr>
                         <td>Launches</td>
@@ -70,9 +70,9 @@
                     </tr>
                 </table>
                 <p>Blue Origin's New Shepard is a single stage suborbital rocket capable of carrying astronauts and tourists alike to a suborbital flight above the Karman Line. New Shepard has launched 23 times 6 of which were crewed launches. The vehicle is powered by a single BE-3: a combustion tap-off cycle HydroLOX engine. After launching and reaching desired trajectory, the NS capsule continues onward and the rocket separates and lands on its own. Finally the capsule returns and lands with its own set of parachutes.</p>
-            </section>
-            <section>
-                <img src="styles/images/New Glenn.jpg" alt="new glenn">
+            </div>
+            <div class="rocket">
+                <img src="styles/images/New-Glenn.jpg" alt="new glenn" class="rocket-image">
                 <table>
                     <tr>
                         <td>Launches</td>
@@ -108,19 +108,57 @@
                     </tr>
                 </table>
                 <p>New Glenn is a heavy lift vehicle being developed by Blue Origin. It is a two stage vehicle and the first orbital class vehicle being made by BO. It will be used to ferry crew and cargo to BO's Orbital Reef, and for other contractors such as NASA Its first stage will be powered by 7 BE-4 engines: An LOX rich MethaLOX staged combustion engine. The second stage uses BE-3U engines: an expander cycle variant of the HydroLOX BE-3 engine of New Shepard. It is projected to launch as early as 2023, however delays in the creation of the BE-4 engine has resulted in delays of the Vehicle production.</p>
-            </section>
+            </div>
         </main>
         <footer>
-            <p>DTE Space &copy; 2022 - Alex Nielsen</p>
-            <p><a href="site-plan.html">Site Plan</a></p>
-            <p><a href="contactus.html">Contact Us</a></p>
-            <h4>Main Provider Websites</h4>
-            <a href="https://www.spacex.com/" target="_blank">SpaceX</a>
-            <a href="https://www.rocketlabusa.com/" target="_blank">Rocket Lab</a>
-            <a href="https://www.nasa.gov/" target="_blank">NASA</a>
-            <a href="https://www.ulalaunch.com/" target="_blank">ULA</a>
-            <a href="https://www.arianespace.com/" target="_blank">Ariane Space</a>
-            <a href="https://www.blueorigin.com/" target="_blank">Blue Origin</a>
+            <p id="copy">DTE Space &copy; 2022 - Alex Nielsen</p>
+            <p id="plan"><a href="site-plan.html">Site Plan</a></p>
+            <p id="contact"><a href="contactus.html">Contact Us</a></p>
+            <a href="https://www.spacex.com/" target="_blank" id="spacex-web">SpaceX</a>
+            <a href="https://www.rocketlabusa.com/" target="_blank" id="lab-web">Rocket Lab</a>
+            <a href="https://www.nasa.gov/" target="_blank" id="nasa-web">NASA</a>
+            <a href="https://www.ulalaunch.com/" target="_blank" id="ula-web">ULA</a>
+            <a href="https://www.arianespace.com/" target="_blank" id="ariane-web">Ariane Space</a>
+            <a href="https://www.blueorigin.com/" target="_blank" id="origin-web">Blue Origin</a>
+            <img src="styles/images/DTE-Space.png" id="footer-logo" alt="logo">
         </footer>
+        <script>
+            function myFunction1() {
+              var a = document.getElementById("p-2");
+              var b = document.getElementById("p-3");
+              a.style.display = "none"; 
+              b.style.display = "none"; 
+              var x = document.getElementById("p-1");
+              if (x.style.display === "none") {
+                x.style.display = "block";
+              } else {
+                x.style.display = "none";
+              }
+              }
+            function myFunction2() {
+              var a = document.getElementById("p-1");
+              var b = document.getElementById("p-3");
+              a.style.display = "none"; 
+              b.style.display = "none"; 
+              var x = document.getElementById("p-2");
+              if (x.style.display === "none") {
+                x.style.display = "block";
+              } else {
+                x.style.display = "none";
+              }
+            }
+            function myFunction3() {
+              var a = document.getElementById("p-1");
+              var b = document.getElementById("p-2");
+              a.style.display = "none"; 
+              b.style.display = "none"; 
+              var x = document.getElementById("p-3");
+              if (x.style.display === "none") {
+                x.style.display = "block";
+              } else {
+                x.style.display = "none";
+              }
+            }
+        </script>
     </body>
 </html>

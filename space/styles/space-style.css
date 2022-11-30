@@ -53,7 +53,7 @@ main {
     text-align: center;
 }
 
-#site-title {
+.page-title {
     font-size: 2.4em;
     margin-top: -100px;
     margin-bottom: 50px;
@@ -120,7 +120,7 @@ p {
     background-image: url("images/Blue-Origin-Banner-Edit.png");
 }
 
-.data-table {
+table {
     margin: 100px auto;
     padding: 50px;
     font-size: 1.7em;
@@ -128,7 +128,7 @@ p {
     border-bottom: #b5b7ba 2px solid;
 }
 
-.data-table td {
+table td {
     border  : #181711 1px solid;
     padding: 10px;
 }
@@ -138,12 +138,8 @@ p {
     color: #b5b7ba;
 }
 
-.row-1 {
+tr:nth-of-type(even) {
     background-color: #b5b7ba;
-}
-
-.row-2 {
-    background-color: #f5f5f5;
 }
 
 footer {
@@ -222,3 +218,131 @@ footer a:hover {
     position: relative;
     bottom: 150px;
 }
+
+.provider-info {
+    width: 70%;
+    margin: 0 auto;
+    display: grid;
+    grid-template: 1fr 1fr 1fr / 30% 70%;
+    color: #b5b7ba;
+    margin-bottom: 150px;
+}
+
+.provider-banner {
+    width: 100%;
+    z-index: -1;
+    border: #181711 10px solid;
+    border-radius: 20px;
+    grid-column: 1/3;
+    grid-row: 1/4;
+    box-sizing: border-box;
+    background-color: #181711;
+    transition: all .5s;
+}
+
+button {
+    font-size: 1.8em;
+    position: relative;
+    top: 30%;
+    padding: 30px;
+    height: 50%;
+    background: none;
+    border: none;
+    font-weight: 800;
+    background-color: rgba(181, 183, 186, .7);
+    padding: 0;
+    border-radius: 30px;
+    color: #002f6c;
+    height: fit-content;
+    padding: 10px;
+    width: 80%;
+    margin: 0 auto;
+}
+
+button:hover {
+    color: #181711;
+}
+
+.provider-info p {
+    height: fit-content;
+    padding: 30px;
+    position: relative;
+    top: 50%;
+    left: 48%;
+    transform: translate(-50%, -50%);   
+    right: 20px;
+    background-color: rgba(21, 23, 17, .7);
+    border-radius: 100px;
+    display: none;
+}
+
+.provider-info button:nth-of-type(1) {
+    grid-column: 1/2;
+    grid-row: 1/2;
+}
+
+.provider-info button:nth-of-type(2) {
+    grid-column: 1/2;
+    grid-row: 2/3;
+}
+
+.provider-info button:nth-of-type(3) {
+    grid-column: 1/2;
+    grid-row: 3/4;
+}
+
+.provider-info p:nth-of-type(1) {
+    grid-column: 2/3;
+    grid-row: 1/4;
+}
+
+.provider-info p:nth-of-type(2) {
+    grid-column: 2/3;
+    grid-row: 1/4;
+}
+
+.provider-info p:nth-of-type(3) {
+    grid-column: 2/3;
+    grid-row: 1/4;
+}
+
+.rocket-image {
+    width: 100%;
+    border: #181711 solid 10px;
+    border-radius: 20px;
+}
+
+.rocket {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.rocket p {
+    background-color: #b5b7ba;
+    height: fit-content;
+    padding: 20px;
+    border-radius: 40px;
+    margin: 0;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.rocket:nth-of-type(even) img {
+    grid-column: 3/4;
+    grid-row: 1/2;
+}
+
+.rocket:nth-of-type(even) table {
+    grid-column: 2/3;
+    grid-row: 1/2;
+}
+
+.rocket:nth-of-type(even) p {
+    grid-column: 1/2;
+    grid-row: 1/2;
+}
+
