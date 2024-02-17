@@ -26,7 +26,7 @@ nav {
 nav a {
     color: #b5b7ba;
     text-decoration: none;
-    font-size: 2em;
+    font-size: 1.5vw;
     padding: 40px;
 }
 
@@ -271,7 +271,7 @@ button:hover {
     left: 48%;
     transform: translate(-50%, -50%);   
     right: 20px;
-    background-color: rgba(21, 23, 17, .7);
+    background-color: rgba(21, 23, 17, .9);
     border-radius: 100px;
     display: none;
 }
@@ -402,5 +402,6 @@ textarea {
     nav a {
         display: block;
         padding: 15px;
+        font-size:2.1em
     }
 }
